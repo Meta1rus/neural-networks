@@ -1,0 +1,28 @@
+# Версии, с которыми выполнены практики и проект (Mac с Apple Silicon, Python 3.13.7).
+# На Mac обычная сборка torch из PyPI поддерживает GPU (MPS); для NVIDIA сборку с CUDA лучше поставить заранее
+# по инструкции pytorch.org.
+torch==2.14.1
+torchvision==0.29.1
+numpy==2.3.5
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+pillow==12.3.0
+# практики 2, 3, 5, 6: интерактивные графики и ползунки, схема сети
+plotly==7.1.0
+ipywidgets==8.1.9
+networkx==3.7
+# практики 10, 11 и проект: модели и датасеты HuggingFace
+transformers==5.19.0
+tokenizers==0.23.3
+datasets==5.1.0
+huggingface_hub==2.2.0
+accelerate==1.15.0
+safetensors==0.8.0
+# Jupyter: работа с тетрадками и их выполнение целиком
+jupyterlab>=4.0
+nbclient==0.11.0
+nbconvert==7.17.1
+ipykernel==7.4.0

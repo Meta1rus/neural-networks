@@ -1,0 +1,19 @@
+# данные, кэши моделей и рабочие файлы тетрадок (скачиваются и создаются при запуске)
+data/
+# веса моделей проекта (сотни МБ; метрики и истории обучения лежат в project/results/runs/*.json)
+project/results/ckpt/
+*.pt
+# быстрый проверочный прогон тетрадки проекта (NN_SMOKE=1)
+project/smoke_out/
+# служебные файлы Python и Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+# временные файлы офисных пакетов
+~$*
+.~lock*
+# системные файлы
+.DS_Store
+Thumbs.db
