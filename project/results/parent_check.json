@@ -1,0 +1,22 @@
+{
+  "parent": "MonoHime/ru_sentiment_dataset",
+  "parent_rows": 210989,
+  "parent_rows_by_split": {
+    "train": 189891,
+    "validation": 21098
+  },
+  "parent_src_id_unique": true,
+  "parent_class_counts": {
+    "NEUTRAL": 54887,
+    "POSITIVE": 100792,
+    "NEGATIVE": 55310
+  },
+  "rows_checked": 48212,
+  "found_by_src_id": 48212,
+  "same_text": 48212,
+  "same_label": 48212,
+  "found_in_parent_split": {
+    "train": 48212
+  },
+  "found_by_exact_text": 48212
+}

@@ -1,0 +1,8 @@
+{
+  "epochs": 12,
+  "best_epoch": 12,
+  "early_stop_would_stop_at": 5,
+  "val_f1_best": 0.7245621492108237,
+  "val_f1_last": 0.7245621492108237,
+  "val_loss_min_epoch": 3
+}

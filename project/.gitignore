@@ -1,0 +1,14 @@
+# веса моделей (сотни МБ; метрики и истории обучения лежат в results/runs/*.json)
+results/ckpt/
+*.pt
+# быстрый проверочный прогон (NN_SMOKE=1)
+smoke_out/
+# служебные файлы Python и Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+# системные файлы
+.DS_Store
+Thumbs.db

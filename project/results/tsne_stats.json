@@ -1,0 +1,14 @@
+{
+  "A_rnn": {
+    "silhouette_cosine_hidden": 0.10962986201047897,
+    "n_points": 3000,
+    "dim": 128,
+    "error_rate_subsample": 0.3426666666666667
+  },
+  "E_sub_pretrained_ft": {
+    "silhouette_cosine_hidden": 0.17158390581607819,
+    "n_points": 3000,
+    "dim": 256,
+    "error_rate_subsample": 0.25133333333333335
+  }
+}

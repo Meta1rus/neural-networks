@@ -1,0 +1,47 @@
+[
+  {
+    "source": "Bektur756/rubert-tiny2-russian-sentiment",
+    "url": "https://huggingface.co/Bektur756/rubert-tiny2-russian-sentiment",
+    "model": "rubert-tiny2 (дообучение)",
+    "data": "MonoHime/ru_sentiment_dataset, очищен и дедуплицирован; test 9 642",
+    "accuracy": 0.7811,
+    "macro_f1": 0.7768,
+    "macro_precision": 0.7713,
+    "macro_recall": 0.7918,
+    "f1_NEUTRAL": 0.696,
+    "f1_POSITIVE": 0.7989,
+    "f1_NEGATIVE": 0.8354,
+    "comparable": "частично (другой тест)",
+    "metric_note": "метрики на тесте авторов модели"
+  },
+  {
+    "source": "Daniil125/prodradar-sentiment-ru",
+    "url": "https://huggingface.co/Daniil125/prodradar-sentiment-ru",
+    "model": "ruRoBERTa-large",
+    "data": "смесь 4 открытых наборов + закрытые данные; test 28 тыс.",
+    "accuracy": null,
+    "macro_f1": 0.868,
+    "macro_precision": null,
+    "macro_recall": null,
+    "f1_NEUTRAL": 0.77,
+    "f1_POSITIVE": 0.917,
+    "f1_NEGATIVE": 0.918,
+    "comparable": "нет (другие данные)",
+    "metric_note": "метрики на тесте авторов модели (28 тыс.)"
+  },
+  {
+    "source": "Практика 10 (сохранённый вывод)",
+    "url": "",
+    "model": "BiLSTM, 10 эпох",
+    "data": "Megnis/ru_sentiment_dataset-50000; обучение на всём наборе, включая val",
+    "accuracy": 0.9896,
+    "macro_f1": null,
+    "macro_precision": null,
+    "macro_recall": null,
+    "f1_NEUTRAL": null,
+    "f1_POSITIVE": null,
+    "f1_NEGATIVE": null,
+    "comparable": "нет (утечка: val входил в обучение)",
+    "metric_note": "val accuracy после 10-й эпохи, не тест"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "model": "cointegrated/rubert-tiny2",
+  "max_len": 320,
+  "vocab_used": 64726,
+  "full_vocab": 83828,
+  "emb_dim": 312,
+  "unk_rate_val": 0.0014550573016088018,
+  "emb_std_before_scaling": 0.04684128612279892,
+  "subword_tokens_p50": 106.0,
+  "subword_tokens_p95": 426.0,
+  "share_truncated_train": 0.09949182150230268,
+  "prep_seconds": 24.035055749991443
+}

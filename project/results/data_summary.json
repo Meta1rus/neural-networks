@@ -1,0 +1,108 @@
+{
+  "source": "HuggingFace: Megnis/ru_sentiment_dataset-50000",
+  "rows_raw": 48212,
+  "class_counts_raw": {
+    "NEUTRAL": 16054,
+    "POSITIVE": 16000,
+    "NEGATIVE": 16158
+  },
+  "length_tokens_by_class": {
+    "NEUTRAL": {
+      "0.05": 11.0,
+      "0.25": 40.0,
+      "0.5": 82.0,
+      "0.75": 153.0,
+      "0.95": 324.0
+    },
+    "POSITIVE": {
+      "0.05": 24.0,
+      "0.25": 43.0,
+      "0.5": 73.0,
+      "0.75": 130.0,
+      "0.95": 271.0
+    },
+    "NEGATIVE": {
+      "0.05": 12.0,
+      "0.25": 39.0,
+      "0.5": 76.0,
+      "0.75": 140.0,
+      "0.95": 309.0
+    }
+  },
+  "length_chars_by_class": {
+    "NEUTRAL": {
+      "0.05": 68.0,
+      "0.25": 258.0,
+      "0.5": 524.0,
+      "0.75": 974.0,
+      "0.95": 2139.0
+    },
+    "POSITIVE": {
+      "0.05": 166.0,
+      "0.25": 291.0,
+      "0.5": 484.0,
+      "0.75": 841.0,
+      "0.95": 1759.0
+    },
+    "NEGATIVE": {
+      "0.05": 79.0,
+      "0.25": 254.0,
+      "0.5": 480.0,
+      "0.75": 875.8,
+      "0.95": 1941.0
+    }
+  },
+  "share_longer_than_50_tokens_raw": 0.6670953289637435,
+  "dedup": {
+    "rows_raw": 48212,
+    "rows_empty": 0,
+    "dup_groups": 627,
+    "extra_copies": 696,
+    "conflict_groups": 288,
+    "conflict_rows": 615,
+    "rows_clean": 47228,
+    "dup_groups_by_label": {
+      "NEUTRAL": 192,
+      "POSITIVE": 116,
+      "NEGATIVE": 31
+    }
+  },
+  "split": {
+    "train": {
+      "NEUTRAL": 12443,
+      "POSITIVE": 12518,
+      "NEGATIVE": 12821,
+      "всего": 37782
+    },
+    "val": {
+      "NEUTRAL": 1555,
+      "POSITIVE": 1565,
+      "NEGATIVE": 1603,
+      "всего": 4723
+    },
+    "test": {
+      "NEUTRAL": 1556,
+      "POSITIVE": 1564,
+      "NEGATIVE": 1603,
+      "всего": 4723
+    }
+  },
+  "split_overlap": {
+    "train∩val": 0,
+    "train∩test": 0,
+    "val∩test": 0
+  },
+  "vocab": {
+    "MAX_LEN": 256,
+    "train_tokens_p50": 75.0,
+    "train_tokens_p95": 299.0,
+    "share_truncated_train": 0.07424170239796729,
+    "share_longer_than_50_train": 0.660764385156953,
+    "unique_tokens_train": 199066,
+    "vocab_size": 50000,
+    "token_coverage_train": 0.9436685735810558,
+    "oov_rate_val": 0.06430863069700711,
+    "oov_rate_test": 0.06564189865812137
+  },
+  "data_tag": "867e33fa5ef2"
+}

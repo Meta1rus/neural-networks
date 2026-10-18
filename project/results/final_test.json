@@ -1,0 +1,159 @@
+{
+  "test_size": 4723,
+  "models": [
+    {
+      "model": "Константа",
+      "group": "базовая",
+      "accuracy": 0.33940292187169174,
+      "macro_f1": 0.16893244809779748,
+      "macro_precision": 0.11313430729056391,
+      "macro_recall": 0.3333333333333333,
+      "f1_NEUTRAL": 0.0,
+      "f1_POSITIVE": 0.0,
+      "f1_NEGATIVE": 0.5067973442933924,
+      "macro_f1_std_seeds": NaN
+    },
+    {
+      "model": "TF-IDF слова + логрег",
+      "group": "базовая",
+      "accuracy": 0.7467711200508151,
+      "macro_f1": 0.7462870203632082,
+      "macro_precision": 0.7503530648282477,
+      "macro_recall": 0.7464193818335186,
+      "f1_NEUTRAL": 0.7237237237237237,
+      "f1_POSITIVE": 0.7143830947511929,
+      "f1_NEGATIVE": 0.8007542426147077,
+      "macro_f1_std_seeds": NaN
+    },
+    {
+      "model": "TF-IDF символы + логрег",
+      "group": "базовая",
+      "accuracy": 0.7484649587126826,
+      "macro_f1": 0.7474527092748834,
+      "macro_precision": 0.7558521284171018,
+      "macro_recall": 0.7481625488994483,
+      "f1_NEUTRAL": 0.731408573928259,
+      "f1_POSITIVE": 0.7067933826117564,
+      "f1_NEGATIVE": 0.8041561712846348,
+      "macro_f1_std_seeds": NaN
+    },
+    {
+      "model": "TF-IDF + случайный лес",
+      "group": "базовая",
+      "accuracy": 0.7044251535041287,
+      "macro_f1": 0.6973001212468191,
+      "macro_precision": 0.7282600577754209,
+      "macro_recall": 0.7038747234202484,
+      "f1_NEUTRAL": 0.7064346865506766,
+      "f1_POSITIVE": 0.6184578505793048,
+      "f1_NEGATIVE": 0.7670078266104756,
+      "macro_f1_std_seeds": NaN
+    },
+    {
+      "model": "RNN (этап A)",
+      "group": "RNN этапов A/A2",
+      "accuracy": 0.652127884818971,
+      "macro_f1": 0.6402192752873145,
+      "macro_precision": 0.6681076205978688,
+      "macro_recall": 0.6513516765835763,
+      "f1_NEUTRAL": 0.6685252299972122,
+      "f1_POSITIVE": 0.5283789301755819,
+      "f1_NEGATIVE": 0.7237536656891496,
+      "macro_f1_std_seeds": NaN
+    },
+    {
+      "model": "LSTM (этап A)",
+      "group": "RNN этапов A/A2",
+      "accuracy": 0.7224221892864705,
+      "macro_f1": 0.7223440661439627,
+      "macro_precision": 0.7230063351707242,
+      "macro_recall": 0.7218923759820216,
+      "f1_NEUTRAL": 0.6787072243346007,
+      "f1_POSITIVE": 0.6973180076628352,
+      "f1_NEGATIVE": 0.7910069664344522,
+      "macro_f1_std_seeds": NaN
+    },
+    {
+      "model": "BiLSTM (этап A)",
+      "group": "RNN этапов A/A2",
+      "accuracy": 0.7211518102900699,
+      "macro_f1": 0.7219042620396524,
+      "macro_precision": 0.7249708899175052,
+      "macro_recall": 0.7209006925315363,
+      "f1_NEUTRAL": 0.6815571155073389,
+      "f1_POSITIVE": 0.7028852056476366,
+      "f1_NEGATIVE": 0.7812704649639817,
+      "macro_f1_std_seeds": NaN
+    },
+    {
+      "model": "Лучшая из A, обрезка 50",
+      "group": "RNN этапов A/A2",
+      "accuracy": 0.6779589244124498,
+      "macro_f1": 0.67777414363018,
+      "macro_precision": 0.6788440345510924,
+      "macro_recall": 0.6774542669728123,
+      "f1_NEUTRAL": 0.6492699596147872,
+      "f1_POSITIVE": 0.634765625,
+      "f1_NEGATIVE": 0.7492868462757528,
+      "macro_f1_std_seeds": NaN
+    },
+    {
+      "model": "Итоговая RNN (E_sub_pretrained_ft)",
+      "group": "итоговая",
+      "accuracy": 0.7465593902180817,
+      "macro_f1": 0.7447580996063455,
+      "macro_precision": 0.7507569999124973,
+      "macro_recall": 0.7458314442108195,
+      "f1_NEUTRAL": 0.7142857142857143,
+      "f1_POSITIVE": 0.7082452431289641,
+      "f1_NEGATIVE": 0.8117433414043583,
+      "macro_f1_std_seeds": 0.00564674403592805
+    },
+    {
+      "model": "rubert-tiny2 (дообучение)",
+      "group": "трансформер",
+      "accuracy": 0.734914249417743,
+      "macro_f1": 0.7335666969092792,
+      "macro_precision": 0.737165710953044,
+      "macro_recall": 0.7341730346960995,
+      "f1_NEUTRAL": 0.6948529411764706,
+      "f1_POSITIVE": 0.7020689655172414,
+      "f1_NEGATIVE": 0.8037781840341255,
+      "macro_f1_std_seeds": NaN
+    }
+  ],
+  "final_seeds": [
+    {
+      "run": "E_sub_pretrained_ft",
+      "accuracy": 0.7465593902180817,
+      "macro_f1": 0.7447580996063455,
+      "macro_precision": 0.7507569999124973,
+      "macro_recall": 0.7458314442108195,
+      "f1_NEUTRAL": 0.7142857142857143,
+      "f1_POSITIVE": 0.7082452431289641,
+      "f1_NEGATIVE": 0.8117433414043583
+    },
+    {
+      "run": "final_seed43",
+      "accuracy": 0.7562989625238196,
+      "macro_f1": 0.7558046694301167,
+      "macro_precision": 0.7562750764334826,
+      "macro_recall": 0.7556324298065865,
+      "f1_NEUTRAL": 0.7122596911440278,
+      "f1_POSITIVE": 0.721194417396949,
+      "f1_NEGATIVE": 0.8339598997493735
+    },
+    {
+      "run": "final_seed44",
+      "accuracy": 0.7520643658691509,
+      "macro_f1": 0.7523153771357886,
+      "macro_precision": 0.7687952067626304,
+      "macro_recall": 0.752112137850328,
+      "f1_NEUTRAL": 0.7343532684283728,
+      "f1_POSITIVE": 0.7085391672547636,
+      "f1_NEGATIVE": 0.8140536957242294
+    }
+  ],
+  "final_macro_f1_mean": 0.7509593820574169,
+  "final_macro_f1_std": 0.00564674403592805
+}

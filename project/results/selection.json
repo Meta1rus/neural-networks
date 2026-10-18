@@ -1,0 +1,43 @@
+{
+  "final": "E_sub_pretrained_ft",
+  "final_cfg": {
+    "tok": "sub",
+    "cell": "lstm",
+    "bidirectional": true,
+    "emb_dim": 312,
+    "hidden_dim": 128,
+    "n_layers": 1,
+    "dropout": 0.3,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "clip": 1.0,
+    "batch_size": 128,
+    "max_epochs": 8,
+    "patience": 2,
+    "restore_best": true,
+    "max_len": 320,
+    "seed": 42,
+    "emb_init": "pretrained",
+    "freeze_emb": false
+  },
+  "stage_winners": {
+    "A": "A_bilstm",
+    "A2": "A_bilstm",
+    "B": "B_h128_l2",
+    "C": "C_adam_lr3e-3",
+    "D_dropout": "D_dropout05",
+    "D_clip": "A_bilstm",
+    "G": "G_combo"
+  },
+  "final_val_f1_seeds": {
+    "E_sub_pretrained_ft": 0.7660422812971022,
+    "final_seed43": 0.7728086687012548,
+    "final_seed44": 0.7669253944432244
+  },
+  "best_baseline": {
+    "family": "tfidf_char_lr",
+    "params": "C=0.5",
+    "val_f1": 0.7689359627511795
+  }
+}
