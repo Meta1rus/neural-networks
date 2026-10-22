@@ -1,5 +1,15 @@
 # Тональность русскоязычных текстов рекуррентными сетями и 10 практик по нейросетям на PyTorch
 
+<!-- header -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Python%203.13-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.13">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+</p>
+
+<p align="center"><img src="project/figures/test_metrics.png" alt="macro-F1 и accuracy моделей на тесте" width="90%"></p>
+
 Проект: сравнение RNN, LSTM, GRU и двунаправленных вариантов, размера сети, оптимизаторов, регуляризации и переноса
 обучения с `rubert-tiny2` — 26 обучений, выбор модели по валидации и однократная оценка на тесте. Рядом — 10 практик:
 от тензоров и оптимизаторов до CNN, transfer learning, VAE и трансформеров.
